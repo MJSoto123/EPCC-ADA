@@ -1,7 +1,7 @@
 Simulación Insert Sort
 -------------
 
-####Insert Sort Algorithm
+#### Insert Sort Algorithm
 ```javascript
 void InsertSort(int * A, int n){
     for(int i = 1 ; i < n ; i++){
@@ -15,13 +15,13 @@ void InsertSort(int * A, int n){
     }
 }
 ```
-##Simulación
+## Simulación
 	A = [14, 27, 10 , 22, 3]
 ##### Primera iteración (i = 1 , key =27)
 | j      |    0 |
 | --------- | -----:|
 | A[j] > key | (14 > 27)  = FALSE  |
-######Actualizamos A[1] = 27
+###### Actualizamos A[1] = 27
 	A = [14, 27, 10 , 22, 3]
 ##### Segunda iteración (i = 2 , key =10)
 | j      |    1 |
@@ -37,7 +37,7 @@ void InsertSort(int * A, int n){
 | j      |    -1 |
 | --------- | -----:|
 | j >= 0 |  FALSE  |
-######Actualizamos A[0] = 10
+###### Actualizamos A[0] = 10
 	A = [10, 14, 27 , 22, 3]
 
 ##### Tercera iteración (i = 3 , key =22)
@@ -49,7 +49,7 @@ void InsertSort(int * A, int n){
 | j      |    1 |
 | --------- | -----:|
 | A[1] > key | (14 > 22)  = FALSE  |
-######Actualizamos A[2] = 22
+###### Actualizamos A[2] = 22
 	A = [10, 14, 22 , 27, 3]
 
 ##### Cuarta iteración (i = 4 , key =3)
@@ -76,7 +76,7 @@ void InsertSort(int * A, int n){
 | j      |    -1 |
 | --------- | -----:|
 | j >= 0 |  FALSE  |
-######Actualizamos A[0] = 3
+###### Actualizamos A[0] = 3
 	A = [3, 10, 14 , 22, 27]
 
-####Finalmente el array "A" está ordenado ascendentemente
+#### Finalmente el array "A" está ordenado ascendentemente
