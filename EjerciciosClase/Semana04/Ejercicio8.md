@@ -1,4 +1,4 @@
-####EJERCICIO 8
+#### EJERCICIO 8
 
     
 	for (int i = 0;  i < n;  i++){
