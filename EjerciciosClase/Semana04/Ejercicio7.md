@@ -1,4 +1,4 @@
-####EJERCICIO 7
+#### EJERCICIO 7
 
     p =0
 	for (int i = 1;  i < n;  i = i * 2){
