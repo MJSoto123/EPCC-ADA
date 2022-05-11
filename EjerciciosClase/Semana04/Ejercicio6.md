@@ -1,4 +1,4 @@
-####EJERCICIO 6
+#### EJERCICIO 6
 
     for (int i = 0; i*i < n; i++){
 		statement;
@@ -14,6 +14,7 @@ Esto es lo mismo que preguntarse cuanto es la raiz cuadrada de n.
 | 0     | 4 |
 | 1     |   4 |
 | 2     |    4 |
+
 En este caso solo se realizan 2 operaciones con i = 0 y con i = 1.
 Cuando se evalua i = 2, el bucle se rompe.
 - Cabe recalcar que cuando "n" es un cuadrado perfecto se cumple que son exactamente n^1/2 operaciones.
@@ -28,4 +29,5 @@ La funcion techo de 6^1/2 es 3.
 | 1     | 6 |
 | 2     | 6 |
 | 3     | 6 |
+
 Con i = 3, el bucle se rompe. Se realizaron 3 iteraciones.
